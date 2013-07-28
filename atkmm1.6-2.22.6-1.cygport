@@ -1,5 +1,0 @@
-inherit gtkmm
-
-PKG_NAMES="libatkmm1.6_1 libatkmm1.6-devel"
-libatkmm1_6_1_CONTENTS="usr/bin/cygatkmm-1.6-1.dll usr/share/doc/${PN}/"
-libatkmm1_6_devel_CONTENTS="usr/include/ usr/lib/ usr/share/devhelp/ usr/share/doc/atkmm-1.6/"

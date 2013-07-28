@@ -1,0 +1,16 @@
+inherit gtkmm
+
+NAME="atkmm1.6"
+VERSION=2.22.6
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="C++ bindings for ATK"
+DESCRIPTION="gtkmm is the official C++ interface for the popular GUI library
+GTK+. It closely follows GTK+ development. Highlights include typesafe
+callbacks, widgets extensible via inheritance and a comprehensive set of
+widgets."
+
+PKG_NAMES="libatkmm1.6_1 libatkmm1.6-devel libatkmm1.6-doc"
+libatkmm1_6_1_CONTENTS="usr/bin/cygatkmm-1.6-1.dll usr/share/doc/${NAME}/"
+libatkmm1_6_devel_CONTENTS="usr/include/ usr/lib/"
+libatkmm1_6_doc_CONTENTS="usr/share/devhelp/ usr/share/doc/atkmm-1.6/"
